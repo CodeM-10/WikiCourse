@@ -1,0 +1,325 @@
+/*Main edit*/
+body {
+	background-color:#efefef;
+	font-size: 16px;}
+	
+	.asterisk {
+	top: 9.1px;
+    color: #D20707;
+	font-size: 31px;
+    position: absolute;
+    right: 31px;
+    
+ }
+
+/*Login Form edit */
+
+.login {width: 320px;
+	margin: 120px auto;}
+
+	.login h4 {color: #887;
+	font-size: 22px; }
+
+    .login input {
+	margin-bottom: 11px;
+}
+.login .form-control {
+	background-color: #fff;
+}
+
+.login .btn {
+	background-color: #ce74c8;
+}
+
+/*Bootstrap Edit*/
+
+.navbar-brand {
+	font-size: 1.2em;
+}
+.navbar-inverse .navbar-brand {
+    color: #c34cb4;
+
+}
+.nav > li > a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #e9c5ea;
+}
+
+.form-control {
+	position: relative;
+}
+
+
+.dropdown-menu {
+	
+	border: none;
+	border-radius:9px;
+	min-width: 142px;
+	padding: 1.2;
+	font-size: 0.8em;
+	background-color: #e28ae4;
+}
+
+.dropdown-menu > li > a {
+	color: #fffe;
+	padding: 11px 14px;
+}
+h2 {font-weight: solid;
+	color: #ggdfgh;
+	font-size: 20px;
+	margin: 30px 1;
+	
+}
+
+/* Member Page */
+.btn-primary {
+    color: #eeef;
+    background-color: #e16de4;
+    border-color: #c243c7;
+}
+h1 {font-weight: bold;
+	color: #6677;
+	font-size: 56px;
+	margin: 41px 1;
+	
+}
+.main-table {
+	-webkit-box-shadow: 0 33px 11px #CCCe;
+	-moz-box-shadow: 0 3px 11px #CCC;
+	box-shadow: 0 3px 10px #CCC;
+}
+
+.main-table td {
+	background-color: #FFF;
+	vertical-align: middle !important;
+}
+
+.main-table tr:first-child td { /* You Can Use Thead */
+	background-color: #333;
+	color: #FFF;
+}
+.mange_img {
+width: 90px;
+height: 90px;
+
+}
+
+.show-pass {
+	position: absolute;
+	top: 6px;
+	right: -29px;
+	
+	
+}
+.activate {
+	margin-left: 5px;
+}
+.main-table .btn {
+	padding: 3px 10px;
+}
+
+
+/*Dashboard Page */
+
+
+
+.home-stats .stat a:hover {
+	text-decoration: none;
+}
+
+.home-stats .stat span {
+	display: block;
+	font-size: 60px;
+}
+.home-stats .stat {
+	padding: 21px;
+	font-size: 16px;
+	color: #FFFE;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.home-stats .stat i {
+    position: absolute;
+    font-size: 80px;
+    top: 34.8px;
+    left: 31px;
+}
+
+.home-stats .stat .info {
+	float: right;
+}
+
+.home-stats .stat a {
+	color: #FFF;
+}
+.home-stats .st-pending {
+	background-color: #c0492b;
+}
+
+.home-stats .st-items {
+	background-color: #d35410;
+}
+
+.home-stats .st-members {
+	background-color: #3488db;
+}
+
+.home-stats .st-comments {
+	background-color: #8e43ad;
+}
+
+.latest {
+	margin-top: 29.9px;
+}
+
+.latest .toggle-info {
+	color: #999;
+	cursor: pointer
+}
+
+.latest .toggle-info:hover {
+	color: #444;
+}
+
+.latest-users {
+	margin-bottom: 0;
+}
+.latest-users li:nth-child(odd) {
+	background-color: #EEEF;
+}
+
+.latest-users li {
+	padding: 9.9px;
+	overflow: hidden;
+}
+
+
+
+.latest-users .btn-success,
+.latest-users .btn-info {
+	padding: 2.1px 9px;
+}
+
+.latest-users .btn-info {
+	margin-right: 6px;
+}
+
+
+/*Start categorise Page */
+.categories .panel-heading {
+	color: #959595;
+	font-weight: bold;
+}
+
+.categories .panel-heading i {
+	position: relative;;
+	top: 1px;
+
+}
+.categories .panel-body {
+	padding: 0;
+}
+.categories .ordering a {
+	color: #888;
+	text-decoration: none;
+}
+.categories .ordering .active {
+	color: #F00;
+}
+
+
+.categories hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.categories .cat{
+	padding: 15px;
+	position: relative;
+}
+
+
+.categories .cat:hover {
+background-color: #EEE;
+}
+
+.categories .cat .hidden-buttons {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+
+}
+
+.categories .cat .hidden-buttons a{
+	margin-right: 5px;
+}
+
+
+.categories .cat h3 {
+	margin: 0 0 10px;
+	font-weight: bold;
+	color: #134A4D;
+}
+
+
+
+.categories .cat:last-of-type ~ hr {
+	display: none;
+
+/* hr relachaion display and line  under and me ,i dont display in last block */
+}
+
+.categories .cat  .Description{
+	color: #BFB2C4;
+
+}
+
+.categories .cat .visibility{
+
+    background-color: #B4174C;
+    color:#fff;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.categories .cat .Commenting{
+
+    background-color: #2c3e50;
+    color:#fff;
+    padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+
+.categories .cat .addcourse{
+
+    background-color: #78917B;
+    color:#fff;
+    padding: 4px 6px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+
+.
+.categories .add-category {
+margin-top: -10px;
+margin-bottom: 30px;
+}
+
+
+/* End Category Page */
+
+/* Start Course Page */
+
+
+
+
+/*End Course Page */

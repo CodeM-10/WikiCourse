@@ -1,0 +1,1037 @@
+
+
+/*
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(http://fonts.gstatic.com/s/varelaround/v8/APH4jr0uSos5wiut5cpjrvZjSN9jRjHSPidsMdAc5jQ.woff2) format('woff2');
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese 
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(http://fonts.gstatic.com/s/varelaround/v8/APH4jr0uSos5wiut5cpjrvgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext 
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(http://fonts.gstatic.com/s/varelaround/v8/APH4jr0uSos5wiut5cpjrojoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin 
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela Round Regular'), local('VarelaRound-Regular'), url(http://fonts.gstatic.com/s/varelaround/v8/APH4jr0uSos5wiut5cpjrhampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+*/
+
+
+/*=== 1. General Structure ===*/
+html,
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+/* Links */
+a {
+  color: #aaaaaa;
+  transition: all ease-in-out 200ms;
+}
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+.asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #D20707;
+}
+.required{
+    color: #D20707;
+}
+
+.alert {
+}
+
+
+
+.alert_danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+.container22{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+/* Bootstrap Modifications *//*======================i dont no ======================*/
+/*
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+*/
+
+/*=== Index page  ===*/
+/*========= Nav ===========*/
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #60c1dd;
+}
+
+.navbar-brand {
+  font-size: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+
+.navbar-default .navbar-nav  .linkpage{ }
+
+.navbar-default .navbar-nav  .linkpage a { 
+  padding: 5px;
+}
+
+
+
+/* hello */
+#hello {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  text-align: center;
+
+}
+
+#hello h1 {
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #60c1dd;
+  text-align: center;
+
+}
+
+#hello h2 {
+  color: #c0c0c0;
+  font-weight: 400;
+    text-align: center;
+
+
+}
+
+/* Green */
+.Courses_index{
+  font-weight: 700;
+  font-size: 30px;
+  color: #60c1dd;
+  padding: 20px;
+  border: 1px solid #60c1dd;
+  font-weight: 400;
+
+}
+
+ #green {
+  background-color: #74cfae;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+#green p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+#greenfooot{
+    background-color: #60c1dd;
+  padding: 10px;
+    margin-top: 20px;
+
+
+}
+
+
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
+
+
+
+/*=== 2. Anchor Link ===*/
+a {
+  color: #aaaaaa;
+  transition: all ease-in-out 200ms;
+}
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+/*=== 3. Text Outside the Box ===*/
+.etc-login-form {
+  color: #919191;
+  padding: 10px 20px;
+}
+.etc-login-form p {
+  margin-bottom: 5px;
+}
+/*=== 4. Main Form ===*/
+.login-form-1 {
+  max-width: 300px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.main-login-form {
+  position: relative;
+}
+.login-form-1 .form-control {
+  border: 0;
+  box-shadow: 0 0 0;
+  border-radius: 0;
+  background: transparent;
+  color: #555555;
+  padding: 7px 0;
+  font-weight: bold;
+  height:auto;
+}
+.login-form-1 .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+.login-form-1 .form-control:-moz-placeholder,
+.login-form-1 .form-control::-moz-placeholder,
+.login-form-1 .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+.login-form-1 .form-group {
+  margin-bottom: 0;
+  border-bottom: 2px solid #efefef;
+  padding-right: 20px;
+  position: relative;
+}
+.login-form-1 .form-group:last-child {
+  border-bottom: 0;
+}
+.login-group {
+  background: #ffffff;
+  color: #999999;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.login-group-checkbox {
+  padding: 5px 0;
+}
+/*=== 5. Login Button ===*/
+.login-form-1 .login-button {
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  background: #ffffff;
+  color: #999999;
+  padding: 11px 0;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  border: 5px solid #efefef;
+  border-radius: 50%;
+  transition: all ease-in-out 500ms;
+}
+.login-form-1 .login-button:hover {
+  color: #555555;
+  transform: rotate(450deg);
+}
+.login-form-1 .login-button.clicked {
+  color: #555555;
+}
+.login-form-1 .login-button.clicked:hover {
+  transform: none;
+}
+.login-form-1 .login-button.clicked.success {
+  color: #2ecc71;
+}
+.login-form-1 .login-button.clicked.error {
+  color: #e74c3c;
+}
+/*=== 6. Form Invalid ===*/
+label.form-invalid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  display: block;
+  margin-top: -25px;
+  padding: 7px 9px;
+  background: #777777;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 11px;
+}
+label.form-invalid:after {
+  top: 100%;
+  right: 10px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: transparent;
+  border-top-color: #777777;
+  border-width: 6px;
+}
+/*=== 7. Form - Main Message ===*/
+.login-form-main-message {
+  background: #ffffff;
+  color: #999999;
+  border-left: 3px solid transparent;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  height: 0;
+  padding: 0 20px 0 17px;
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+.login-form-main-message.show {
+  height: auto;
+  opacity: 1;
+  padding: 10px 20px 10px 17px;
+}
+.login-form-main-message.success {
+  border-left-color: #2ecc71;
+}
+.login-form-main-message.error {
+  border-left-color: #e74c3c;
+}
+
+/* hover style just for information  */
+label:hover:before {
+  border: 1px solid #f6f6f6 !important;
+}
+/
+/*=== 9. Misc ===*/
+.logo {
+  padding: 15px 0;
+  font-size: 25px;
+  color: #aaaaaa;
+  font-weight: bold;
+}
+
+
+
+
+
+/*=== 10. formErrors ===*/
+.alert{}
+.alert-danger{
+    width: 50%;
+    margin: auto;
+}
+
+
+/*=== 10. Start profile page  ===*/
+
+
+
+
+.profile{
+    margin-bottom: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.21);
+    overflow: hidden;
+}
+
+ .profile-user{
+   display: flex;
+    height: 140px;
+    padding: 20px;
+    align-items: center;
+/*-----*******************i dont understand this pr
+
+
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+
+****************--------*/
+   
+}
+
+
+/*Start Img  in profile_users*/
+  
+ .proflile-user-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+    background-size: 100px;
+    position: relative; /* i need search this position and anthor type */
+}
+ .proflile-user-img.textimg {
+    background: pink;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.proflile-user-img.form-image-delete.center {  
+    top: 25px;
+}
+/*
+.form-image-delete.center {
+    top: 22px;
+    left: 22px;
+    width: 50px;
+    height: 50px;
+    background-position: 50%;
+    background-size: 40px;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.form-image-delete {
+  /*img may be hear *
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-size: 25px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding-top: 1px;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+}*/
+
+/*End  Img profile_users */
+/*    Start Info  profile_users */
+
+
+.proflile-user-info{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.list-unstyled{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    display: inline-block;
+
+}
+.proflile-user-info .list-unstyled li {
+    display: inline;
+}
+/*End  Info */
+ 
+
+
+.profile-link{
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1px solid #e6e6e6;
+    background-color: #f8f8f8;
+
+}
+
+
+
+.profile-links-section{
+  width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #535353;
+    font-size: 16px;
+    text-align: center;
+}
+
+.profile-links-section:hover { 
+    background-color: #60c1dd;
+    color: #fff;
+}
+
+
+
+.tab-content{
+
+
+}
+/* Box the content courses */
+.profile-empty {
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 59px;
+    border: 1px dashed #cecece;
+    border-radius: 4px;
+    background-color: hsla(0,0%,100%,.46);
+    color: #acacac;
+    font-size: 14px;
+}
+
+.profile-empty h3 {
+  color: black;
+  font-size: 20;
+    padding-left: 25px;
+
+}
+.profile-empty .list-unstyled li {
+   padding-left: 25px;
+
+}
+
+
+
+.item-box{
+  margin: 20px;
+  width: 200px;
+  padding: 10px;
+  display: inline-block;
+
+}
+.item-box a{
+font-size: 20px;
+ color:#60c1dd;
+}
+ .update-info {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 30px; 
+}
+
+ .update-info a {
+  font-size: 15px;
+ }
+ .panle .data_card{
+  float: right;
+  font-size: 12px;
+
+ }
+/* End Box the content courses into profile */
+
+
+/*=== 10. End profile page  ===*/
+
+
+
+/*=== 11. Start allCategories.php page  ===*/
+
+.top-colors {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+.top-colors .color_col_1, 
+.top-colors .color_col_2, 
+.top-colors .color_col_3 {
+    width: 33.33%;
+    height: 5px;
+    float: left;
+}
+
+ .color_col_1 {
+    background: #EC3233;
+    height: 5px;
+}
+ .color_col_2 {
+    background: #1EB2B2;
+    height: 5px;
+}
+ .color_col_3 {
+    background: #E0E0E0;
+    height: 5px;
+}
+
+
+
+
+ .block_cat {
+  width: 100%;
+}
+
+ .cat_content {
+    width: 100%; 
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+
+.cat_info:hover{
+  background-color: #EEE;
+
+}
+.cat_info .cat_title{
+        padding: 20px;
+
+
+}
+.block_cat .cat_title a  {
+  color: #3fafb2;
+  font-size: 25px;
+}
+
+
+.block_cat .bpostmeta span  {
+    font-size: 13px;
+    color: #A3A3A3;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans serif
+  }
+
+
+ hr{
+  margin: 0px;
+  padding: 0px;
+}
+/*=== 11. End  allCategories.php  page  ===*/
+
+
+/*=== 12. Start  into categrioes == "" Categories.php page""  ===*/
+
+.into_cat{
+
+}
+
+.course_active{
+}
+
+.card {
+    margin-top: 20px;
+}
+
+
+
+/*border card
+    border-top:2px solid #1EB2B2; 
+
+*/
+.course_content {
+
+    width: 290px;
+    display: inline-block;
+
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+
+    margin: 10px;
+    margin-top:20px; 
+
+}
+
+
+/*font = line-height*/
+.course_body{
+  background-color: #fff;
+  padding-top: 15px;
+  line-height: 1.5em;
+  }
+
+
+.coures_card_header {
+    display: block;
+    margin-bottom: 4px;
+    padding-left:15px;
+    padding-right: 15px; 
+}
+.coures_card_header a h1{
+    font-size: 35px;  
+}
+
+.info_card{
+  padding-left:15px;
+  padding-right: 15px; 
+  padding-bottom: 30px;
+
+  font-size: 15px;
+  opacity: .9;
+  min-height: 84px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.course_card_description {
+  color: #848484;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+.course_card_tag{
+
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  color: #999;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+}
+
+.desin_foot{
+    width: 0;
+    margin-top: -19px;
+    border-style: solid;
+    border-width: 0 250px 20px 0px;
+    float: right;
+    border-color: transparent transparent #F7F8F9 transparent;
+}
+/*old  css
+    position: relative;
+    padding: 10px 10px;
+    color: #999;
+    border-top: 1px solid #f0f0f0;*/
+.course_card_footer {   
+    padding: 20px;
+    font-size: 18px;
+    background: #F7F8F9;
+    padding-top: 0px;
+}
+
+
+.course_card_meta {
+  padding-top: 20px;
+  color: #999;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.course_card_meta .user_addcourse{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.course_card_meta .data_addcourse{
+  margin-left: 5px;
+  margin-right: 5px;
+
+
+}
+.course_card_meta .like_course{
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  padding: 0 10px;
+  border-left: 2px solid #f0f0f0;
+}
+
+.under_foot{
+  position: relative;
+  padding: 10px 10px;
+  color: #999;
+  border-top: 1px solid #f0f0f0;
+}
+/*=== 12. End   into Categories ===> "" Categories.php page""   ===*/
+
+
+/*=== 13. Start  group into courses   page  ===*/
+
+.course_link{
+    margin-top: 30px;
+    display: flex;
+    border-top: 1px solid #e6e6e6;
+    background-color: #fff;
+
+}
+
+.course_links_section{
+  width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #535353;
+    font-size: 16px;
+    text-align: center;
+}
+
+.course_links_section:hover { 
+    background-color: #60c1dd;
+    color: #fff;
+}
+
+
+/* Box the content courses */
+.course_empty {
+  text-align: left;
+  padding-left: 35px;
+  padding-top: 40px;
+  padding-bottom: 59px;
+
+  border: 1px dashed #cecece;
+  border-radius: 4px;
+  background-color: hsla(0,0%,100%,.46);
+  color: #acacac;
+  font-size: 14px;
+}
+
+.course_empty h3 {
+  color: black;
+  font-size: 20;
+}
+
+
+
+/*conten the page*/
+  .mnul{
+  }
+  .mnul_body{
+    background: #fff;
+    margin: 25px;
+
+  }
+
+  .mnul_body ul li{
+  padding: 20px;
+}
+  .mnul_body ul li a{
+     color: #60c1dd;
+     font-size: 20px;
+  }
+  .mnul_body hr{
+    padding: 0px;
+    margin: 0px;
+  }
+.NoItems{
+    padding: 20px;
+}  
+.NoItems p{
+    color: #60c1dd;
+    font-size: 20px;
+    font-weight: bold;
+}  
+
+  .mnul_body .addnew{
+    background: #60c1dd;
+    color:#fff;
+    padding-left: 20px;
+    font-size: 15px;
+
+}  
+ .mnul_body .addnew a{
+    color:#fff;
+   font-weight: bold;
+
+
+}
+/*=== 13. End   group into courses   page  ===*/
+
+/*=== 14. Start   item.php  page      ===*/
+.items-empty {
+  margin-top: 40px;
+  text-align: left;
+  padding-bottom: 60px;
+  border: 1px dashed #cecece;
+  border-radius: 4px;
+  background-color: hsla(0,0%,100%,.46);
+  color: #acacac;
+  font-size: 14px;
+}
+
+.items-empty .info_course{
+  background: #60c1dd;
+  color:#fff;
+  font-size: 18px;
+  padding: 15px;
+}
+.info_course .user_addcourse{
+  margin-right: 5px;
+  float: right;
+}
+.info_course .data_addcourse{
+  margin-left: 5px;
+  float-right: left;
+
+}
+
+.items-empty .data_video{
+}
+
+.items-empty .data_video video{
+  padding: 50px;
+}
+
+.items-empty .data_file iframe{
+  padding: 20px;
+
+
+}
+
+
+.items-empty .content_item{
+  padding: 20px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.control_adduser{
+  border-bottom: 1px solid #cecece;
+  border-top: 1px solid #cecece;
+  margin: 20px;
+  padding: 10px;
+}
+/* Start  more info   */
+
+.addmorinfo{
+  text-align: center;
+   font-size: 25px;
+   margin:  30 0 10px;
+}
+
+.add_morinfo{
+}
+
+.add_morinfo textarea{
+  display: block;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 120px;
+}
+
+.moreinfo-box{
+  margin: 20px;
+
+}
+.moreinfo-box img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.moreinfo-box .lead{
+  background: #d7dee0;
+  color:#000;  
+  font-size: 20px;
+  position: relative;
+  padding: 20px;
+}
+.moreinfo-box .lead:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #d7dee0 transparent transparent;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+
+
+.moreinfo-box .lead2{
+  background-color: #60c1dd;
+  position: relative;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.moreinfo-box .lead2:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #60c1dd transparent transparent;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+}
+
+
+.dash{
+  border-bottom: 1px solid #cecece;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+/*=== 14. End   item.php  page      ===*/
+
+
+
+
